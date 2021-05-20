@@ -1,0 +1,101 @@
+@import 'fonts.css';
+* {
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --m-m: 'Montserrat-Medium';
+    --m-t: 'Montserrat-Thin';
+    --n-r: 'NunitoSans-Regular';
+}
+header .navbar {
+    width: 100%;
+}
+
+header .nav-link {
+    color: rgb(0, 0, 0) !important;
+}
+
+header .nav-link:hover {
+    color: #007d2f !important;
+}
+
+header .header_text {
+    display: flex;
+    align-items: center;
+    background: #000;
+    height: 350px;
+    color: #fff;
+}
+
+/* header end */
+/* **************** */
+/* main start */
+main {
+    background: #007d2f;
+}
+
+main .box {
+    text-align: center;
+    height: 240px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+/* main end */
+/* ******************* */
+/* section start */
+section .section_header {
+    background: #f5f5f5;
+}
+
+section .section_text {
+    margin-left: 63px;
+}
+
+section .section_text h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 138px;
+}
+
+section .section_text img {
+    margin-top: 30px;
+}
+
+section .section_text p {
+    color: #787878;
+}
+
+/* need project */
+section .need_project{
+    margin-top: 100px;
+}
+section .need_project h1{
+    margin-bottom: 20px;
+}
+section .need_project button {
+    background: #007d2f;
+    color: #fff;
+    padding: 22px 40px;
+    border: none;
+}
+p{
+    margin-bottom: none;
+}
+/* footer start */
+footer{
+    background: #000;
+    color: white;
+}
+footer .footer_box{
+    margin-top: 100px;
+    padding-top: 80px;
+}
+footer .box-left{
+    margin-top: -70px;
+    padding-bottom: 20px;
+}
