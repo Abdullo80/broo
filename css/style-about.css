@@ -51,6 +51,11 @@ main .box {
 section .section_header {
     background: #f5f5f5;
 }
+section .section_header .row{
+    margin: 0;
+    padding: 0;
+}
+    
 
 section .section_text {
     margin-left: 63px;
